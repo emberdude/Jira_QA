@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DPQ-72] Заполнение новой заявки</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://rikontllc.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DPQ-72]&nbsp;<a href="https://rikontllc.atlassian.net/browse/DPQ-72">Заполнение новой заявки</a>
+            <span class="subText">
+               Создано: 21/апр/22                   &nbsp;Обновлено: 26/апр/22
+
+                                                    &nbsp;Решено: 21/апр/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">Готово</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://rikontllc.atlassian.net/secure/BrowseProject.jspa?id=10001">Diplom Project QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="61fabf990d3777006a916d8b"
+                id="word_reporter_61fabf990d3777006a916d8b"
+                href="https://rikontllc.atlassian.net/secure/ViewProfile.jspa?accountId=61fabf990d3777006a916d8b">
+                    Ember Dude
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="61fabf990d3777006a916d8b"
+                id="word_assignee_61fabf990d3777006a916d8b"
+                href="https://rikontllc.atlassian.net/secure/ViewProfile.jspa?accountId=61fabf990d3777006a916d8b">
+                    Ember Dude
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Готово
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10074-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://rikontllc.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="Файл">
+                    Diplom requests.postman_collection.json &nbsp;&nbsp;&nbsp;
+                                    <img src="https://rikontllc.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="Файл">
+                    Diplom requests.postman_test_run.json &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10074-value" class="value" bgcolor="#ffffff" width="80%">Доска Спринт 1</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10074-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10074-value" class="value" bgcolor="#ffffff" width="80%">      0|i000d3:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <div class="panel" style="background-color: #deebff;border-width: 1px;"><div class="panelContent" style="background-color: #deebff;">
+<p>Epic: Заполнение новой заявки</p>
+
+<p>ID: 
+    <span class="jira-issue-macro resolved" data-jira-key="DPQ-72" >
+                <a href="https://rikontllc.atlassian.net/browse/DPQ-72" class="jira-issue-macro-key issue-link"  title="Заполнение новой заявки" >
+            <img class="icon" src="https://rikontllc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium" />
+            DPQ-72
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">Done</span>
+            </span>
+<br/>
+Summary:  Заявка формируется с незаполненным полем [Телефон***] обязательным для заполнения<br/>
+severity:	S3 – Major<br/>
+priority:	P2 Средний (Medium)<br/>
+Environment:	версия ОС - Windows 10 Pro, версия 20H2. Браузер Google Chrome, версия 100.0.4896.127 (Официальная сборка), (64 бит), тип соединения - Etnernet.</p>
+
+<p>STR</p>
+
+<ol>
+	<li>Открыть страницу в браузере с адресом <a href="https://www.kstu.ru/ekds/ekds01.jsp" title="smart-link" class="external-link" rel="nofollow noreferrer">https://www.kstu.ru/ekds/ekds01.jsp</a></li>
+	<li>На странице технического сервиса залогиниться</li>
+	<li>Кликнуть на вкладку [Новая заявка]</li>
+	<li>В Input Field [<b>ТEMA</b>***] вписать тему заявки</li>
+	<li>В Input Field [<b>Телефон</b>***] Не прописывать номер телефона</li>
+	<li>Нажать клавишу [ОТПРАВИТЬ]</li>
+</ol>
+
+
+<p>Actual result:</p>
+
+<ol>
+	<li>Страница открыта</li>
+	<li>Вошли в личный кабинет</li>
+	<li>Откроется страница заявки с автоматически присвоенным кодом заявки, датой и временем</li>
+	<li>Тема вписана</li>
+	<li>Пустое поле</li>
+	<li>Заявка создана заявителем</li>
+</ol>
+
+
+<p>Expected result:</p>
+
+<ol>
+	<li>Страница открыта</li>
+	<li>Вошли в личный кабинет</li>
+	<li>Откроется страница заявки с автоматически присвоенным кодом заявки, датой и временем</li>
+	<li>Тема вписана</li>
+	<li>Пустое поле</li>
+	<li>Предупреждение</li>
+</ol>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Полученный Thu Apr 28 19:57:46 UTC 2022 Ember Dude используя JIRA 1001.0.0-SNAPSHOT#100198-sha1:e4e2d96cc11ce47861058204b98508d9d2803e64.
+
+</body>
+</html>

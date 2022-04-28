@@ -1,0 +1,827 @@
+{
+	"info": {
+		"_postman_id": "bb0c7646-9a61-41fb-b0a3-23aeed8a974a",
+		"name": "Diplom requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Emploes request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Check if Leanne Graham has the userid 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].name).to.eql(\"Leanne Graham\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emploes request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 11,\n    \"name\": \"Rajkumar SM\",\n    \"username\": \"stm\",\n    \"email\": \"user@testengineer.ru\",\n    \"address\": {\n      \"street\": \"Gagarina\",\n      \"suite\": \"31\",\n      \"city\": \"Moscow\",\n      \"zipcode\": \"600007\",\n      \"geo\": {\n        \"lat\": \"10.0000\",\n        \"lng\": \"80.0000\"\n      }\n    },\n    \"phone\": \"1-2345-6-7890\",\n    \"website\": \"testengineer.ru\",\n    \"company\": {\n      \"name\": \"testengineer.ru\",\n      \"catchPhrase\": \"website for QA engineers\",\n      \"bs\": \"real-time tutorials\"\n    }\n}"
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Битая ссылка на рейтинг ВУЗов",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"verify status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.minobrnauki.gov.ru/upload/08/M-rate.pdf",
+					"protocol": "https",
+					"host": [
+						"www",
+						"minobrnauki",
+						"gov",
+						"ru"
+					],
+					"path": [
+						"upload",
+						"08",
+						"M-rate.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.kstu.ru/ekds/www_init_tus.jsp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/www_init_tus.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"www_init_tus.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Вход в ЛК технический сервис",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Submit",
+							"value": {}
+						},
+						{
+							"key": "act",
+							"value": "1"
+						},
+						{
+							"key": "err",
+							"value": "???"
+						},
+						{
+							"key": "id",
+							"value": "null"
+						},
+						{
+							"key": "id_dept",
+							"value": "null"
+						},
+						{
+							"key": "id_user",
+							"value": "null"
+						},
+						{
+							"key": "idparent",
+							"value": "null"
+						},
+						{
+							"key": "idr",
+							"value": "null"
+						},
+						{
+							"key": "nt",
+							"value": "0"
+						},
+						{
+							"key": "us_name",
+							"value": "160673"
+						},
+						{
+							"key": "us_pass",
+							"value": "7LSE4"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}ekds/www_init_tus.jsp",
+					"host": [
+						"{{URL}}ekds"
+					],
+					"path": [
+						"www_init_tus.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds0.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds0.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.kstu.ru/ekds/ekds02.jsp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds02.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds02.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Заявка на транспорт сформирована",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}ekds/ajax_insert_update_tus.jsp",
+					"host": [
+						"{{URL}}ekds"
+					],
+					"path": [
+						"ajax_insert_update_tus.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Заявка на транспорт отправлена",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Submit2",
+							"value": {}
+						},
+						{
+							"key": "act",
+							"value": "2"
+						},
+						{
+							"key": "content",
+							"value": {}
+						},
+						{
+							"key": "dz1",
+							"value": "2022-04-24"
+						},
+						{
+							"key": "dz2",
+							"value": "2022-04-24"
+						},
+						{
+							"key": "idr",
+							"value": "11963"
+						},
+						{
+							"key": "note",
+							"value": ""
+						},
+						{
+							"key": "npass",
+							"value": "0"
+						},
+						{
+							"key": "response",
+							"value": ""
+						},
+						{
+							"key": "tel",
+							"value": {}
+						},
+						{
+							"key": "tz1",
+							"value": ""
+						},
+						{
+							"key": "tz2",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds02.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds02.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.kstu.ru/ekds/ekds01.jsp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds01.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds01.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Заполнение новой заявки",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "f",
+							"value": "content"
+						},
+						{
+							"key": "k",
+							"value": "id_request"
+						},
+						{
+							"key": "k2",
+							"value": "id_e"
+						},
+						{
+							"key": "k3",
+							"value": "id_d"
+						},
+						{
+							"key": "k4",
+							"value": "null"
+						},
+						{
+							"key": "kv",
+							"value": "11964"
+						},
+						{
+							"key": "kv2",
+							"value": "160673"
+						},
+						{
+							"key": "kv3",
+							"value": "2789"
+						},
+						{
+							"key": "kv4",
+							"value": "null"
+						},
+						{
+							"key": "t",
+							"value": "pilot_to_kgtu.EKDS_REQUESTS"
+						},
+						{
+							"key": "v",
+							"value": {}
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ajax_insert_update_tus.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ajax_insert_update_tus.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Заявка заполнена и отправлена",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Submit2",
+							"value": {}
+						},
+						{
+							"key": "act",
+							"value": "2"
+						},
+						{
+							"key": "content",
+							"value": {}
+						},
+						{
+							"key": "id_build",
+							"value": "null"
+						},
+						{
+							"key": "idr",
+							"value": "11964"
+						},
+						{
+							"key": "inv",
+							"value": ""
+						},
+						{
+							"key": "note",
+							"value": ""
+						},
+						{
+							"key": "response",
+							"value": ""
+						},
+						{
+							"key": "tel",
+							"value": {}
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds01.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds01.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.kstu.ru/ekds/ekds0.jsp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"kstu",
+						"ru"
+					],
+					"path": [
+						"ekds",
+						"ekds0.jsp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DPQ-15] Создать инструкцию подачи заявки по направлению АХО</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://rikontllc.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DPQ-15]&nbsp;<a href="https://rikontllc.atlassian.net/browse/DPQ-15">Создать инструкцию подачи заявки по направлению АХО</a>
+            <span class="subText">
+               Создано: 17/апр/22                   &nbsp;Обновлено: 17/апр/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://rikontllc.atlassian.net/secure/BrowseProject.jspa?id=10001">Diplom Project QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            История
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="61fabf990d3777006a916d8b"
+                id="word_reporter_61fabf990d3777006a916d8b"
+                href="https://rikontllc.atlassian.net/secure/ViewProfile.jspa?accountId=61fabf990d3777006a916d8b">
+                    Ember Dude
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10017-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Суммарная оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Суммарное затраченое время:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Суммарная первоначальная оценка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Не определено
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://rikontllc.atlassian.net/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="PDF файл">
+                    Технический сервис_ Инструкция по подаче заявки_  .pdf &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Подзадачи:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Ключ</b><br/>
+                </td>
+                <td>
+                    <b>Pезюме</b><br/>
+                </td>
+                <td>
+                    <b>Тип</b><br/>
+                </td>
+                <td>
+                    <b>Статус</b><br/>
+                </td>
+                <td>
+                    <b>Исполнитель</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-51">DPQ-51</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-51">[FE] Добавить в футтер ссылку [&quot;Инстр...</a>
+                    </td>
+                    <td>
+                        Подзадача
+                    </td>
+                    <td>
+                        В работе
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-52">DPQ-52</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-52">[BE] Загрузить на сервер в БД инструк...</a>
+                    </td>
+                    <td>
+                        Подзадача
+                    </td>
+                    <td>
+                        В работе
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-53">DPQ-53</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-53">[ТК] Написать Тест-кейс</a>
+                    </td>
+                    <td>
+                        Подзадача
+                    </td>
+                    <td>
+                        В работе
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-54">DPQ-54</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://rikontllc.atlassian.net/browse/DPQ-54">[ФТ] Провести функциональное тестиров...</a>
+                    </td>
+                    <td>
+                        Подзадача
+                    </td>
+                    <td>
+                        В работе
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10017-value" class="value" bgcolor="#ffffff" width="80%">Доска Спринт 2</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10017-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10017-value" class="value" bgcolor="#ffffff" width="80%">      0|i00027:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Пошаговая инструкция подачи заявки по направлению АХО в виде текстового файла с картинками</p>
+
+<p><span class="nobr"><a href="/secure/attachment/10001/10001_%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81_+%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B4%D0%B0%D1%87%D0%B5+%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8_++.pdf" title="Технический сервис_ Инструкция по подаче заявки_  .pdf attached to DPQ-15" data-attachment-type="file" data-attachment-name="Технический сервис_ Инструкция по подаче заявки_  .pdf" data-media-services-type="file" data-media-services-id="86068162-66aa-496a-bd0f-7e7bdfd812bb" rel="noreferrer">Технический сервис_ Инструкция по подаче заявки_  .pdf<sup><img class="rendericon" src="/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span></p>
+
+<p>Добавление инструкции ссылкой в поле входа в ЛК технического сервиса</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Полученный Thu Apr 28 19:58:14 UTC 2022 Ember Dude используя JIRA 1001.0.0-SNAPSHOT#100198-sha1:e4e2d96cc11ce47861058204b98508d9d2803e64.
+
+</body>
+</html>

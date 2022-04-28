@@ -1,0 +1,337 @@
+{
+	"id": "f506a7e6-1588-4724-9dc7-7c0a26911ccf",
+	"name": "Diplom requests",
+	"timestamp": "2022-04-25T16:58:38.206Z",
+	"collection_id": "19840164-bb0c7646-9a61-41fb-b0a3-23aeed8a974a",
+	"folder_id": 0,
+	"environment_id": "19840164-d4bf89ae-1320-4af9-9b06-0cb12cc7ed73",
+	"totalPass": 3,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "1c6b3187-5e83-4555-a6fc-79dd8adef00f",
+			"name": "Emploes request",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 359,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if Leanne Graham has the userid 1": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if Leanne Graham has the userid 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				359
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if Leanne Graham has the userid 1": true
+				}
+			]
+		},
+		{
+			"id": "af576330-6aa9-4956-9af5-ddd1d281e14a",
+			"name": "Emploes request",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 385,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				385
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e1501b0a-bf24-42d7-a279-da6eea27530d",
+			"name": "Битая ссылка на рейтинг ВУЗов",
+			"url": "https://www.minobrnauki.gov.ru/upload/08/M-rate.pdf",
+			"time": 221,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"verify status code is 200": false
+			},
+			"testPassFailCounts": {
+				"verify status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"verify status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "4484a462-3482-4947-92bc-0685cf4b4f3f",
+			"name": "https://www.kstu.ru/ekds/www_init_tus.jsp",
+			"url": "https://www.kstu.ru/ekds/www_init_tus.jsp",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				183
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "43c1f8a8-237d-4088-a854-76c3fcff2b24",
+			"name": "Вход в ЛК технический сервис",
+			"url": "https://www.kstu.ru/ekds/www_init_tus.jsp",
+			"time": 4328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f926104d-1da5-488e-a702-375247a66d37",
+			"name": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"url": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				190
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40331ae7-316c-4785-a600-a46eb94bcc5e",
+			"name": "https://www.kstu.ru/ekds/ekds02.jsp",
+			"url": "https://www.kstu.ru/ekds/ekds02.jsp",
+			"time": 176,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				176
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5fd1ac60-8c30-481f-8bd9-1c1c832ffa19",
+			"name": "Заявка на транспорт сформирована",
+			"url": "https://www.kstu.ru/ekds/ajax_insert_update_tus.jsp",
+			"time": 101,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "737a5962-5625-45eb-a7bb-9a931994bdcb",
+			"name": "Заявка на транспорт отправлена",
+			"url": "https://www.kstu.ru/ekds/ekds02.jsp",
+			"time": 316,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				316
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "da9c13fa-cc84-4574-9f37-3d7966725ea2",
+			"name": "https://www.kstu.ru/ekds/ekds01.jsp",
+			"url": "https://www.kstu.ru/ekds/ekds01.jsp",
+			"time": 184,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				184
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6f7919c8-8e3e-4931-a639-2f74b787c7f5",
+			"name": "Заполнение новой заявки",
+			"url": "https://www.kstu.ru/ekds/ajax_insert_update_tus.jsp",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				127
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ae869686-99b1-4810-85b2-7a0174f9931d",
+			"name": "Заявка заполнена и отправлена",
+			"url": "https://www.kstu.ru/ekds/ekds01.jsp",
+			"time": 181,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				181
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0e0d8030-7d29-4ab9-926f-deb8bd8f15fc",
+			"name": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"url": "https://www.kstu.ru/ekds/ekds0.jsp",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				111
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6862,
+	"collection": {
+		"requests": [
+			{
+				"id": "1c6b3187-5e83-4555-a6fc-79dd8adef00f",
+				"method": "GET"
+			},
+			{
+				"id": "af576330-6aa9-4956-9af5-ddd1d281e14a",
+				"method": "POST"
+			},
+			{
+				"id": "e1501b0a-bf24-42d7-a279-da6eea27530d",
+				"method": "GET"
+			},
+			{
+				"id": "4484a462-3482-4947-92bc-0685cf4b4f3f",
+				"method": "GET"
+			},
+			{
+				"id": "43c1f8a8-237d-4088-a854-76c3fcff2b24",
+				"method": "POST"
+			},
+			{
+				"id": "f926104d-1da5-488e-a702-375247a66d37",
+				"method": "GET"
+			},
+			{
+				"id": "40331ae7-316c-4785-a600-a46eb94bcc5e",
+				"method": "GET"
+			},
+			{
+				"id": "5fd1ac60-8c30-481f-8bd9-1c1c832ffa19",
+				"method": "POST"
+			},
+			{
+				"id": "737a5962-5625-45eb-a7bb-9a931994bdcb",
+				"method": "POST"
+			},
+			{
+				"id": "da9c13fa-cc84-4574-9f37-3d7966725ea2",
+				"method": "GET"
+			},
+			{
+				"id": "6f7919c8-8e3e-4931-a639-2f74b787c7f5",
+				"method": "POST"
+			},
+			{
+				"id": "ae869686-99b1-4810-85b2-7a0174f9931d",
+				"method": "POST"
+			},
+			{
+				"id": "0e0d8030-7d29-4ab9-926f-deb8bd8f15fc",
+				"method": "GET"
+			}
+		]
+	}
+}
